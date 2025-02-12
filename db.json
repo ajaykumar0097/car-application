@@ -1,0 +1,868 @@
+{
+    "cars": [
+        {
+            "id": 1,
+            "make": "Toyota",
+            "model": "Camry",
+            "year": 2020,
+            "price": 25000,
+            "images": [
+                "https://images.pexels.com/photos/12132947/pexels-photo-12132947.jpeg",
+                "https://images.pexels.com/photos/105299/pexels-photo-105299.jpeg"
+            ],
+            "description": "A reliable and comfortable sedan.",
+            "specifications": {
+                "engine": "2.5L",
+                "transmission": "Automatic",
+                "fuel": "Gasoline",
+                "mileage": "30 MPG"
+            }
+        },
+        {
+            "id": 2,
+            "make": "Honda",
+            "model": "Civic",
+            "year": 2021,
+            "price": 23000,
+            "images": [
+                "https://images.pexels.com/photos/100653/pexels-photo-100653.jpeg",
+                "https://images.pexels.com/photos/228094/pexels-photo-228094.jpeg"
+            ],
+            "description": "A compact and fuel-efficient sedan.",
+            "specifications": {
+                "engine": "1.5L Turbo",
+                "transmission": "CVT",
+                "fuel": "Gasoline",
+                "mileage": "35 MPG"
+            }
+        },
+        {
+            "id": 3,
+            "make": "Ford",
+            "model": "Mustang",
+            "year": 2022,
+            "price": 40000,
+            "images": [
+                "https://images.pexels.com/photos/1335077/pexels-photo-1335077.jpeg",
+                "https://images.pexels.com/photos/2487473/pexels-photo-2487473.jpeg"
+            ],
+            "description": "A powerful muscle car with a sleek design.",
+            "specifications": {
+                "engine": "5.0L V8",
+                "transmission": "Manual",
+                "fuel": "Gasoline",
+                "mileage": "22 MPG"
+            }
+        },
+        {
+            "id": 4,
+            "make": "Tesla",
+            "model": "Model 3",
+            "year": 2023,
+            "price": 50000,
+            "images": [
+                "https://images.pexels.com/photos/1183099/pexels-photo-1183099.jpeg",
+                "https://images.pexels.com/photos/6182082/pexels-photo-6182082.jpeg"
+            ],
+            "description": "An innovative and fully electric sedan.",
+            "specifications": {
+                "engine": "Electric",
+                "transmission": "Single Speed",
+                "fuel": "Electric",
+                "mileage": "350 miles per charge"
+            }
+        },
+        {
+            "id": 5,
+            "make": "BMW",
+            "model": "X5",
+            "year": 2021,
+            "price": 60000,
+            "images": [
+                "https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg",
+                "https://images.pexels.com/photos/170812/pexels-photo-170812.jpeg"
+            ],
+            "description": "A luxurious and sporty SUV.",
+            "specifications": {
+                "engine": "3.0L Turbo",
+                "transmission": "Automatic",
+                "fuel": "Gasoline",
+                "mileage": "27 MPG"
+            }
+        },
+        {
+            "id": 6,
+            "make": "Mercedes-Benz",
+            "model": "E-Class",
+            "year": 2020,
+            "price": 55000,
+            "images": [
+                "https://images.pexels.com/photos/348804/pexels-photo-348804.jpeg",
+                "https://images.pexels.com/photos/1402787/pexels-photo-1402787.jpeg"
+            ],
+            "description": "A premium sedan with advanced features.",
+            "specifications": {
+                "engine": "2.0L Turbo",
+                "transmission": "Automatic",
+                "fuel": "Gasoline",
+                "mileage": "29 MPG"
+            }
+        },
+        {
+            "id": 7,
+            "make": "Audi",
+            "model": "Q7",
+            "year": 2022,
+            "price": 70000,
+            "images": [
+                "https://images.pexels.com/photos/100653/pexels-photo-100653.jpeg",
+                "https://images.pexels.com/photos/227485/pexels-photo-227485.jpeg"
+            ],
+            "description": "A spacious luxury SUV with high performance.",
+            "specifications": {
+                "engine": "3.0L V6",
+                "transmission": "Automatic",
+                "fuel": "Gasoline",
+                "mileage": "23 MPG"
+            }
+        },
+        {
+            "id": 8,
+            "make": "Chevrolet",
+            "model": "Corvette",
+            "year": 2023,
+            "price": 75000,
+            "images": [
+                "https://images.pexels.com/photos/358070/pexels-photo-358070.jpeg",
+                "https://images.pexels.com/photos/244206/pexels-photo-244206.jpeg"
+            ],
+            "description": "A high-performance sports car.",
+            "specifications": {
+                "engine": "6.2L V8",
+                "transmission": "Automatic",
+                "fuel": "Gasoline",
+                "mileage": "20 MPG"
+            }
+        },
+        {
+            "id": 9,
+            "make": "Toyota",
+            "model": "Camry",
+            "year": 2020,
+            "price": 25000,
+            "images": [
+                "https://images.pexels.com/photos/12132947/pexels-photo-12132947.jpeg",
+                "https://images.pexels.com/photos/105299/pexels-photo-105299.jpeg"
+            ],
+            "description": "A reliable and comfortable sedan.",
+            "specifications": {
+                "engine": "2.5L",
+                "transmission": "Automatic",
+                "fuel": "Gasoline",
+                "mileage": "30 MPG"
+            }
+        },
+        {
+            "id": 10,
+            "make": "Honda",
+            "model": "Civic",
+            "year": 2021,
+            "price": 23000,
+            "images": [
+                "https://images.pexels.com/photos/100653/pexels-photo-100653.jpeg",
+                "https://images.pexels.com/photos/228094/pexels-photo-228094.jpeg"
+            ],
+            "description": "A compact and fuel-efficient sedan.",
+            "specifications": {
+                "engine": "1.5L Turbo",
+                "transmission": "CVT",
+                "fuel": "Gasoline",
+                "mileage": "35 MPG"
+            }
+        },
+        {
+            "id": 11,
+            "make": "Ford",
+            "model": "Mustang",
+            "year": 2022,
+            "price": 40000,
+            "images": [
+                "https://images.pexels.com/photos/1335077/pexels-photo-1335077.jpeg",
+                "https://images.pexels.com/photos/2487473/pexels-photo-2487473.jpeg"
+            ],
+            "description": "A powerful muscle car with a sleek design.",
+            "specifications": {
+                "engine": "5.0L V8",
+                "transmission": "Manual",
+                "fuel": "Gasoline",
+                "mileage": "22 MPG"
+            }
+        },
+        {
+            "id": 12,
+            "make": "Tesla",
+            "model": "Model 3",
+            "year": 2023,
+            "price": 50000,
+            "images": [
+                "https://images.pexels.com/photos/1183099/pexels-photo-1183099.jpeg",
+                "https://images.pexels.com/photos/6182082/pexels-photo-6182082.jpeg"
+            ],
+            "description": "An innovative and fully electric sedan.",
+            "specifications": {
+                "engine": "Electric",
+                "transmission": "Single Speed",
+                "fuel": "Electric",
+                "mileage": "350 miles per charge"
+            }
+        },
+        {
+            "id": 13,
+            "make": "BMW",
+            "model": "X5",
+            "year": 2021,
+            "price": 60000,
+            "images": [
+                "https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg",
+                "https://images.pexels.com/photos/170812/pexels-photo-170812.jpeg"
+            ],
+            "description": "A luxurious and sporty SUV.",
+            "specifications": {
+                "engine": "3.0L Turbo",
+                "transmission": "Automatic",
+                "fuel": "Gasoline",
+                "mileage": "27 MPG"
+            }
+        },
+        {
+            "id": 14,
+            "make": "Mercedes-Benz",
+            "model": "E-Class",
+            "year": 2020,
+            "price": 55000,
+            "images": [
+                "https://images.pexels.com/photos/348804/pexels-photo-348804.jpeg",
+                "https://images.pexels.com/photos/1402787/pexels-photo-1402787.jpeg"
+            ],
+            "description": "A premium sedan with advanced features.",
+            "specifications": {
+                "engine": "2.0L Turbo",
+                "transmission": "Automatic",
+                "fuel": "Gasoline",
+                "mileage": "29 MPG"
+            }
+        },
+        {
+            "id": 15,
+            "make": "Audi",
+            "model": "Q7",
+            "year": 2022,
+            "price": 70000,
+            "images": [
+                "https://images.pexels.com/photos/100653/pexels-photo-100653.jpeg",
+                "https://images.pexels.com/photos/227485/pexels-photo-227485.jpeg"
+            ],
+            "description": "A spacious luxury SUV with high performance.",
+            "specifications": {
+                "engine": "3.0L V6",
+                "transmission": "Automatic",
+                "fuel": "Gasoline",
+                "mileage": "23 MPG"
+            }
+        },
+        {
+            "id": 16,
+            "make": "Chevrolet",
+            "model": "Corvette",
+            "year": 2023,
+            "price": 75000,
+            "images": [
+                "https://images.pexels.com/photos/358070/pexels-photo-358070.jpeg",
+                "https://images.pexels.com/photos/244206/pexels-photo-244206.jpeg"
+            ],
+            "description": "A high-performance sports car.",
+            "specifications": {
+                "engine": "6.2L V8",
+                "transmission": "Automatic",
+                "fuel": "Gasoline",
+                "mileage": "20 MPG"
+            }
+        },
+        {
+            "id": 17,
+            "make": "Toyota",
+            "model": "Camry",
+            "year": 2020,
+            "price": 25000,
+            "images": [
+                "https://images.pexels.com/photos/12132947/pexels-photo-12132947.jpeg",
+                "https://images.pexels.com/photos/105299/pexels-photo-105299.jpeg"
+            ],
+            "description": "A reliable and comfortable sedan.",
+            "specifications": {
+                "engine": "2.5L",
+                "transmission": "Automatic",
+                "fuel": "Gasoline",
+                "mileage": "30 MPG"
+            }
+        },
+        {
+            "id": 18,
+            "make": "Honda",
+            "model": "Civic",
+            "year": 2021,
+            "price": 23000,
+            "images": [
+                "https://images.pexels.com/photos/100653/pexels-photo-100653.jpeg",
+                "https://images.pexels.com/photos/228094/pexels-photo-228094.jpeg"
+            ],
+            "description": "A compact and fuel-efficient sedan.",
+            "specifications": {
+                "engine": "1.5L Turbo",
+                "transmission": "CVT",
+                "fuel": "Gasoline",
+                "mileage": "35 MPG"
+            }
+        },
+        {
+            "id": 19,
+            "make": "Ford",
+            "model": "Mustang",
+            "year": 2022,
+            "price": 40000,
+            "images": [
+                "https://images.pexels.com/photos/1335077/pexels-photo-1335077.jpeg",
+                "https://images.pexels.com/photos/2487473/pexels-photo-2487473.jpeg"
+            ],
+            "description": "A powerful muscle car with a sleek design.",
+            "specifications": {
+                "engine": "5.0L V8",
+                "transmission": "Manual",
+                "fuel": "Gasoline",
+                "mileage": "22 MPG"
+            }
+        },
+        {
+            "id": 20,
+            "make": "Tesla",
+            "model": "Model 3",
+            "year": 2023,
+            "price": 50000,
+            "images": [
+                "https://images.pexels.com/photos/1183099/pexels-photo-1183099.jpeg",
+                "https://images.pexels.com/photos/6182082/pexels-photo-6182082.jpeg"
+            ],
+            "description": "An innovative and fully electric sedan.",
+            "specifications": {
+                "engine": "Electric",
+                "transmission": "Single Speed",
+                "fuel": "Electric",
+                "mileage": "350 miles per charge"
+            }
+        },
+        {
+            "id": 21,
+            "make": "BMW",
+            "model": "X5",
+            "year": 2021,
+            "price": 60000,
+            "images": [
+                "https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg",
+                "https://images.pexels.com/photos/170812/pexels-photo-170812.jpeg"
+            ],
+            "description": "A luxurious and sporty SUV.",
+            "specifications": {
+                "engine": "3.0L Turbo",
+                "transmission": "Automatic",
+                "fuel": "Gasoline",
+                "mileage": "27 MPG"
+            }
+        },
+        {
+            "id": 22,
+            "make": "Mercedes-Benz",
+            "model": "E-Class",
+            "year": 2020,
+            "price": 55000,
+            "images": [
+                "https://images.pexels.com/photos/348804/pexels-photo-348804.jpeg",
+                "https://images.pexels.com/photos/1402787/pexels-photo-1402787.jpeg"
+            ],
+            "description": "A premium sedan with advanced features.",
+            "specifications": {
+                "engine": "2.0L Turbo",
+                "transmission": "Automatic",
+                "fuel": "Gasoline",
+                "mileage": "29 MPG"
+            }
+        },
+        {
+            "id": 23,
+            "make": "Audi",
+            "model": "Q7",
+            "year": 2022,
+            "price": 70000,
+            "images": [
+                "https://images.pexels.com/photos/100653/pexels-photo-100653.jpeg",
+                "https://images.pexels.com/photos/227485/pexels-photo-227485.jpeg"
+            ],
+            "description": "A spacious luxury SUV with high performance.",
+            "specifications": {
+                "engine": "3.0L V6",
+                "transmission": "Automatic",
+                "fuel": "Gasoline",
+                "mileage": "23 MPG"
+            }
+        },
+        {
+            "id": 24,
+            "make": "Chevrolet",
+            "model": "Corvette",
+            "year": 2023,
+            "price": 75000,
+            "images": [
+                "https://images.pexels.com/photos/358070/pexels-photo-358070.jpeg",
+                "https://images.pexels.com/photos/244206/pexels-photo-244206.jpeg"
+            ],
+            "description": "A high-performance sports car.",
+            "specifications": {
+                "engine": "6.2L V8",
+                "transmission": "Automatic",
+                "fuel": "Gasoline",
+                "mileage": "20 MPG"
+            }
+        },
+        {
+            "id": 25,
+            "make": "Toyota",
+            "model": "Camry",
+            "year": 2020,
+            "price": 25000,
+            "images": [
+                "https://images.pexels.com/photos/12132947/pexels-photo-12132947.jpeg",
+                "https://images.pexels.com/photos/105299/pexels-photo-105299.jpeg"
+            ],
+            "description": "A reliable and comfortable sedan.",
+            "specifications": {
+                "engine": "2.5L",
+                "transmission": "Automatic",
+                "fuel": "Gasoline",
+                "mileage": "30 MPG"
+            }
+        },
+        {
+            "id": 26,
+            "make": "Honda",
+            "model": "Civic",
+            "year": 2021,
+            "price": 23000,
+            "images": [
+                "https://images.pexels.com/photos/100653/pexels-photo-100653.jpeg",
+                "https://images.pexels.com/photos/228094/pexels-photo-228094.jpeg"
+            ],
+            "description": "A compact and fuel-efficient sedan.",
+            "specifications": {
+                "engine": "1.5L Turbo",
+                "transmission": "CVT",
+                "fuel": "Gasoline",
+                "mileage": "35 MPG"
+            }
+        },
+        {
+            "id": 27,
+            "make": "Ford",
+            "model": "Mustang",
+            "year": 2022,
+            "price": 40000,
+            "images": [
+                "https://images.pexels.com/photos/1335077/pexels-photo-1335077.jpeg",
+                "https://images.pexels.com/photos/2487473/pexels-photo-2487473.jpeg"
+            ],
+            "description": "A powerful muscle car with a sleek design.",
+            "specifications": {
+                "engine": "5.0L V8",
+                "transmission": "Manual",
+                "fuel": "Gasoline",
+                "mileage": "22 MPG"
+            }
+        },
+        {
+            "id": 28,
+            "make": "Tesla",
+            "model": "Model 3",
+            "year": 2023,
+            "price": 50000,
+            "images": [
+                "https://images.pexels.com/photos/1183099/pexels-photo-1183099.jpeg",
+                "https://images.pexels.com/photos/6182082/pexels-photo-6182082.jpeg"
+            ],
+            "description": "An innovative and fully electric sedan.",
+            "specifications": {
+                "engine": "Electric",
+                "transmission": "Single Speed",
+                "fuel": "Electric",
+                "mileage": "350 miles per charge"
+            }
+        },
+        {
+            "id": 29,
+            "make": "BMW",
+            "model": "X5",
+            "year": 2021,
+            "price": 60000,
+            "images": [
+                "https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg",
+                "https://images.pexels.com/photos/170812/pexels-photo-170812.jpeg"
+            ],
+            "description": "A luxurious and sporty SUV.",
+            "specifications": {
+                "engine": "3.0L Turbo",
+                "transmission": "Automatic",
+                "fuel": "Gasoline",
+                "mileage": "27 MPG"
+            }
+        },
+        {
+            "id": 30,
+            "make": "Mercedes-Benz",
+            "model": "E-Class",
+            "year": 2020,
+            "price": 55000,
+            "images": [
+                "https://images.pexels.com/photos/348804/pexels-photo-348804.jpeg",
+                "https://images.pexels.com/photos/1402787/pexels-photo-1402787.jpeg"
+            ],
+            "description": "A premium sedan with advanced features.",
+            "specifications": {
+                "engine": "2.0L Turbo",
+                "transmission": "Automatic",
+                "fuel": "Gasoline",
+                "mileage": "29 MPG"
+            }
+        },
+        {
+            "id": 31,
+            "make": "Audi",
+            "model": "Q7",
+            "year": 2022,
+            "price": 70000,
+            "images": [
+                "https://images.pexels.com/photos/100653/pexels-photo-100653.jpeg",
+                "https://images.pexels.com/photos/227485/pexels-photo-227485.jpeg"
+            ],
+            "description": "A spacious luxury SUV with high performance.",
+            "specifications": {
+                "engine": "3.0L V6",
+                "transmission": "Automatic",
+                "fuel": "Gasoline",
+                "mileage": "23 MPG"
+            }
+        },
+        {
+            "id": 32,
+            "make": "Chevrolet",
+            "model": "Corvette",
+            "year": 2023,
+            "price": 75000,
+            "images": [
+                "https://images.pexels.com/photos/358070/pexels-photo-358070.jpeg",
+                "https://images.pexels.com/photos/244206/pexels-photo-244206.jpeg"
+            ],
+            "description": "A high-performance sports car.",
+            "specifications": {
+                "engine": "6.2L V8",
+                "transmission": "Automatic",
+                "fuel": "Gasoline",
+                "mileage": "20 MPG"
+            }
+        },
+        {
+            "id": 33,
+            "make": "Toyota",
+            "model": "Camry",
+            "year": 2020,
+            "price": 25000,
+            "images": [
+                "https://images.pexels.com/photos/12132947/pexels-photo-12132947.jpeg",
+                "https://images.pexels.com/photos/105299/pexels-photo-105299.jpeg"
+            ],
+            "description": "A reliable and comfortable sedan.",
+            "specifications": {
+                "engine": "2.5L",
+                "transmission": "Automatic",
+                "fuel": "Gasoline",
+                "mileage": "30 MPG"
+            }
+        },
+        {
+            "id": 34,
+            "make": "Honda",
+            "model": "Civic",
+            "year": 2021,
+            "price": 23000,
+            "images": [
+                "https://images.pexels.com/photos/100653/pexels-photo-100653.jpeg",
+                "https://images.pexels.com/photos/228094/pexels-photo-228094.jpeg"
+            ],
+            "description": "A compact and fuel-efficient sedan.",
+            "specifications": {
+                "engine": "1.5L Turbo",
+                "transmission": "CVT",
+                "fuel": "Gasoline",
+                "mileage": "35 MPG"
+            }
+        },
+        {
+            "id": 35,
+            "make": "Ford",
+            "model": "Mustang",
+            "year": 2022,
+            "price": 40000,
+            "images": [
+                "https://images.pexels.com/photos/1335077/pexels-photo-1335077.jpeg",
+                "https://images.pexels.com/photos/2487473/pexels-photo-2487473.jpeg"
+            ],
+            "description": "A powerful muscle car with a sleek design.",
+            "specifications": {
+                "engine": "5.0L V8",
+                "transmission": "Manual",
+                "fuel": "Gasoline",
+                "mileage": "22 MPG"
+            }
+        },
+        {
+            "id": 36,
+            "make": "Tesla",
+            "model": "Model 3",
+            "year": 2023,
+            "price": 50000,
+            "images": [
+                "https://images.pexels.com/photos/1183099/pexels-photo-1183099.jpeg",
+                "https://images.pexels.com/photos/6182082/pexels-photo-6182082.jpeg"
+            ],
+            "description": "An innovative and fully electric sedan.",
+            "specifications": {
+                "engine": "Electric",
+                "transmission": "Single Speed",
+                "fuel": "Electric",
+                "mileage": "350 miles per charge"
+            }
+        },
+        {
+            "id": 37,
+            "make": "BMW",
+            "model": "X5",
+            "year": 2021,
+            "price": 60000,
+            "images": [
+                "https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg",
+                "https://images.pexels.com/photos/170812/pexels-photo-170812.jpeg"
+            ],
+            "description": "A luxurious and sporty SUV.",
+            "specifications": {
+                "engine": "3.0L Turbo",
+                "transmission": "Automatic",
+                "fuel": "Gasoline",
+                "mileage": "27 MPG"
+            }
+        },
+        {
+            "id": 38,
+            "make": "Mercedes-Benz",
+            "model": "E-Class",
+            "year": 2020,
+            "price": 55000,
+            "images": [
+                "https://images.pexels.com/photos/348804/pexels-photo-348804.jpeg",
+                "https://images.pexels.com/photos/1402787/pexels-photo-1402787.jpeg"
+            ],
+            "description": "A premium sedan with advanced features.",
+            "specifications": {
+                "engine": "2.0L Turbo",
+                "transmission": "Automatic",
+                "fuel": "Gasoline",
+                "mileage": "29 MPG"
+            }
+        },
+        {
+            "id": 39,
+            "make": "Audi",
+            "model": "Q7",
+            "year": 2022,
+            "price": 70000,
+            "images": [
+                "https://images.pexels.com/photos/100653/pexels-photo-100653.jpeg",
+                "https://images.pexels.com/photos/227485/pexels-photo-227485.jpeg"
+            ],
+            "description": "A spacious luxury SUV with high performance.",
+            "specifications": {
+                "engine": "3.0L V6",
+                "transmission": "Automatic",
+                "fuel": "Gasoline",
+                "mileage": "23 MPG"
+            }
+        },
+        {
+            "id": 40,
+            "make": "Chevrolet",
+            "model": "Corvette",
+            "year": 2023,
+            "price": 75000,
+            "images": [
+                "https://images.pexels.com/photos/358070/pexels-photo-358070.jpeg",
+                "https://images.pexels.com/photos/244206/pexels-photo-244206.jpeg"
+            ],
+            "description": "A high-performance sports car.",
+            "specifications": {
+                "engine": "6.2L V8",
+                "transmission": "Automatic",
+                "fuel": "Gasoline",
+                "mileage": "20 MPG"
+            }
+        },
+        {
+            "id": 41,
+            "make": "Toyota",
+            "model": "Camry",
+            "year": 2020,
+            "price": 25000,
+            "images": [
+                "https://images.pexels.com/photos/12132947/pexels-photo-12132947.jpeg",
+                "https://images.pexels.com/photos/105299/pexels-photo-105299.jpeg"
+            ],
+            "description": "A reliable and comfortable sedan.",
+            "specifications": {
+                "engine": "2.5L",
+                "transmission": "Automatic",
+                "fuel": "Gasoline",
+                "mileage": "30 MPG"
+            }
+        },
+        {
+            "id": 42,
+            "make": "Honda",
+            "model": "Civic",
+            "year": 2021,
+            "price": 23000,
+            "images": [
+                "https://images.pexels.com/photos/100653/pexels-photo-100653.jpeg",
+                "https://images.pexels.com/photos/228094/pexels-photo-228094.jpeg"
+            ],
+            "description": "A compact and fuel-efficient sedan.",
+            "specifications": {
+                "engine": "1.5L Turbo",
+                "transmission": "CVT",
+                "fuel": "Gasoline",
+                "mileage": "35 MPG"
+            }
+        },
+        {
+            "id": 43,
+            "make": "Ford",
+            "model": "Mustang",
+            "year": 2022,
+            "price": 40000,
+            "images": [
+                "https://images.pexels.com/photos/1335077/pexels-photo-1335077.jpeg",
+                "https://images.pexels.com/photos/2487473/pexels-photo-2487473.jpeg"
+            ],
+            "description": "A powerful muscle car with a sleek design.",
+            "specifications": {
+                "engine": "5.0L V8",
+                "transmission": "Manual",
+                "fuel": "Gasoline",
+                "mileage": "22 MPG"
+            }
+        },
+        {
+            "id": 44,
+            "make": "Tesla",
+            "model": "Model 3",
+            "year": 2023,
+            "price": 50000,
+            "images": [
+                "https://images.pexels.com/photos/1183099/pexels-photo-1183099.jpeg",
+                "https://images.pexels.com/photos/6182082/pexels-photo-6182082.jpeg"
+            ],
+            "description": "An innovative and fully electric sedan.",
+            "specifications": {
+                "engine": "Electric",
+                "transmission": "Single Speed",
+                "fuel": "Electric",
+                "mileage": "350 miles per charge"
+            }
+        },
+        {
+            "id": 45,
+            "make": "BMW",
+            "model": "X5",
+            "year": 2021,
+            "price": 60000,
+            "images": [
+                "https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg",
+                "https://images.pexels.com/photos/170812/pexels-photo-170812.jpeg"
+            ],
+            "description": "A luxurious and sporty SUV.",
+            "specifications": {
+                "engine": "3.0L Turbo",
+                "transmission": "Automatic",
+                "fuel": "Gasoline",
+                "mileage": "27 MPG"
+            }
+        },
+        {
+            "id": 46,
+            "make": "Mercedes-Benz",
+            "model": "E-Class",
+            "year": 2020,
+            "price": 55000,
+            "images": [
+                "https://images.pexels.com/photos/348804/pexels-photo-348804.jpeg",
+                "https://images.pexels.com/photos/1402787/pexels-photo-1402787.jpeg"
+            ],
+            "description": "A premium sedan with advanced features.",
+            "specifications": {
+                "engine": "2.0L Turbo",
+                "transmission": "Automatic",
+                "fuel": "Gasoline",
+                "mileage": "29 MPG"
+            }
+        },
+        {
+            "id": 47,
+            "make": "Audi",
+            "model": "Q7",
+            "year": 2022,
+            "price": 70000,
+            "images": [
+                "https://images.pexels.com/photos/100653/pexels-photo-100653.jpeg",
+                "https://images.pexels.com/photos/227485/pexels-photo-227485.jpeg"
+            ],
+            "description": "A spacious luxury SUV with high performance.",
+            "specifications": {
+                "engine": "3.0L V6",
+                "transmission": "Automatic",
+                "fuel": "Gasoline",
+                "mileage": "23 MPG"
+            }
+        },
+        {
+            "id": 48,
+            "make": "Chevrolet",
+            "model": "Corvette",
+            "year": 2023,
+            "price": 75000,
+            "images": [
+                "https://images.pexels.com/photos/358070/pexels-photo-358070.jpeg",
+                "https://images.pexels.com/photos/244206/pexels-photo-244206.jpeg"
+            ],
+            "description": "A high-performance sports car.",
+            "specifications": {
+                "engine": "6.2L V8",
+                "transmission": "Automatic",
+                "fuel": "Gasoline",
+                "mileage": "20 MPG"
+            }
+        }
+    ]
+}
